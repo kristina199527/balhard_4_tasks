@@ -15,9 +15,8 @@ WORKERS = {
 
 
 def get_workers(workers: dict):
-    # TODO вставить код сюда
-    result = None
-    return result
+
+    return workers.items()
 
 
 if __name__ == '__main__':

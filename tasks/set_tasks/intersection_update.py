@@ -5,9 +5,8 @@
 которые являются общими для него и другого множества
 """
 
-
 def intersection_update(set_1: set, set_2: set) -> set:
-    # TODO вставить код сюда
+    set_1.intersection_update(set_2)
     return set_1
 
 
