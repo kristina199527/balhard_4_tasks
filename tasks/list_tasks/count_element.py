@@ -24,5 +24,6 @@ def count_elements(collection: list, element: Any) -> int:
     counter = collection.count(element)
     return counter
 
+
 if __name__ == '__main__':
     print(f"За сегодня произошло {count_elements(TODAY_LOG, '500 Error')} ошибок.")

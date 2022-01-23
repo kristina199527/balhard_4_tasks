@@ -13,7 +13,6 @@
 
 import copy
 
-
 user_data = {
     "name": None,
     "surname": None
